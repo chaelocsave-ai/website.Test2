@@ -1,0 +1,17 @@
+.paginations{
+    text-align: center;
+}
+.paginations a{
+    color: black;
+    background-color: hsla(30, 0%, 86%, 1);
+    border-radius: 5px;
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.paginations a.active{
+    background-color: palegreen;
+}
